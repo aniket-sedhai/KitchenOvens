@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A1A756902C210C26003F1C23 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1A7568F2C210C26003F1C23 /* main.cpp */; };
+		A1A756972C210C75003F1C23 /* Oven.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1A756962C210C75003F1C23 /* Oven.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A1A7568C2C210C26003F1C23 /* KitchenOvens */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KitchenOvens; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A7568F2C210C26003F1C23 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A1A756962C210C75003F1C23 /* Oven.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Oven.cpp; sourceTree = "<group>"; };
+		A1A756982C210C8C003F1C23 /* Oven.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Oven.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A1A7568F2C210C26003F1C23 /* main.cpp */,
+				A1A756962C210C75003F1C23 /* Oven.cpp */,
+				A1A756982C210C8C003F1C23 /* Oven.h */,
 			);
 			path = KitchenOvens;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1A756902C210C26003F1C23 /* main.cpp in Sources */,
+				A1A756972C210C75003F1C23 /* Oven.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
